@@ -17,3 +17,7 @@ Notes:
 
 - [Reference tutorial](https://www.t410.me/article/how-to-ci-cd-for-node-project-pm2)
 - [How to generate ssh Github keys](https://www.youtube.com/watch?v=EoLrCX1VVog)
+- [How to use Dotenv wih pm2 deploy](https://davidcosta.com.br/en/how-to-use-pm2-for-deploy-nodejs-applications/)
+- [How to deploy multiple environments pm2 deploy `append_env_to_name: true`](https://stackoverflow.com/a/54953226/4527467)
+- [How to run a cron service from pm2 command](https://stackoverflow.com/a/42543433/4527467)
+- [How to specify a cron from a ecosystem file](https://stackoverflow.com/a/54455715/4527467)
