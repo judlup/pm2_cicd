@@ -17,7 +17,7 @@ module.exports = {
         dev: {
             user: "judlup",
             host: "localhost",
-            path: "/app",
+            path: "/app/dev",
             repo: "git@github.com:judlup/pm2_cicd.git",
             ref: "origin/main",
             key: "/home/judlup/.ssh/id_rsa.pub",
@@ -26,7 +26,7 @@ module.exports = {
         prod: {
             user: "judlup",
             host: "localhost",
-            path: "/app",
+            path: "/app/prod",
             repo: "git@github.com:judlup/pm2_cicd.git",
             ref: "origin/main",
             key: "/home/judlup/.ssh/id_rsa.pub",
