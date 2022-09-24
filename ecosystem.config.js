@@ -2,8 +2,9 @@ module.exports = {
     apps: [
         {
             name: "pm2-deploy",
+            append_env_to_name: true,
             script: "index.js",
-            env: {
+            env_dev: {
                 "PORT": 5000,
                 "NODE_ENV":"dev"
             },
