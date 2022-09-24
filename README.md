@@ -7,6 +7,7 @@
 2. Clone the latest version repository (using ssh option `git clone ssh-path`)
 3. Run in project's root path `pm2 deploy ecosystem.config.js production setup` - Create the environment pre-deploy
 4. Run in project's root path `pm2 deploy ecosystem.config.js production` - Deploy a new version
+5. If you want to validate that process is running well, you should run `pm2 ls` and if you need to see the logs registry `pm2 log 0` (0 or pm2's process number)
 
 Notes:
 
