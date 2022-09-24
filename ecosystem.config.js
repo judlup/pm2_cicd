@@ -1,4 +1,8 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 const DB = process.env.DB
+
 module.exports = {
     apps: [
         {
