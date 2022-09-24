@@ -1,3 +1,4 @@
+const DB = process.env.DB
 module.exports = {
     apps: [
         {
@@ -6,11 +7,13 @@ module.exports = {
             script: "index.js",
             env_dev: {
                 "PORT": 5000,
-                "NODE_ENV":"dev"
+                "NODE_ENV":"dev",
+                "DB":DB
             },
             env_prod: {
                 "PORT": 6000,
-                "NODE_ENV":"prod"
+                "NODE_ENV":"prod",
+                "DB":DB
             }
         }
     ],
